@@ -1,0 +1,74 @@
+
+.hottest{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 200px;
+    margin-left: 130px; 
+    border-radius: 20px;
+
+}
+.first-div{
+    border: 1px solid red;
+    max-width: 80%;
+    margin: 3em auto;
+    padding: 1em;
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+
+}
+.btnn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    width: 100px;
+    border-radius: 30px;
+    margin-left: 150px;
+}
+.naijaBlog{
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+.blogs:hover{
+   transform: scale(1.02);
+}
+.updat{
+    width: 200px;
+    height: 100px;
+    display: flex;
+}
+.updates{
+    display: grid;
+    grid-row: 1fr, 3;
+}
+.paragra{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dark{
+    background-color: black;
+}
+.btn{
+    padding: 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    width: 100px;
+    border-radius: 30px;
+    margin-left: 150px;
+}
+@media screen and (max-width:800px) {
+    .first-div{background-color: black;}
+    
+}
+    
